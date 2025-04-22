@@ -1,0 +1,2 @@
+# k23cnt2_NguyenHaiSon_NetCore
+k23cnt2_NguyenHaiSon_NetCore
