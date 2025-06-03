@@ -41,8 +41,7 @@
               "RelativeToolTip": "..\\NhsLesson01Mvc\\Views\\NhsHome\\NhsAbout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T15:05:00.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T15:05:00.37Z"
             },
             {
               "$type": "Document",
@@ -67,21 +66,19 @@
               "RelativeToolTip": "..\\NhsLesson01Mvc\\Controllers\\NhsHomeController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:57:52.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T14:57:52.714Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "NhsLesson01Mvc",
+              "Title": "NhsLesson01Mvc.csproj",
               "DocumentMoniker": "D:\\TinHoc\\k23cnt2_NguyenHaiSon_NetCore\\NhsLesson01Mvc\\NhsLesson01Mvc.csproj",
               "RelativeDocumentMoniker": "..\\NhsLesson01Mvc\\NhsLesson01Mvc.csproj",
               "ToolTip": "D:\\TinHoc\\k23cnt2_NguyenHaiSon_NetCore\\NhsLesson01Mvc\\NhsLesson01Mvc.csproj",
               "RelativeToolTip": "..\\NhsLesson01Mvc\\NhsLesson01Mvc.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-28T14:57:29.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T14:57:29.202Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "..\\NhsLesson01Mvc\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:38:14.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T14:38:14.444Z"
             }
           ]
         }
