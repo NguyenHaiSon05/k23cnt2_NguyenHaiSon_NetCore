@@ -55,14 +55,14 @@
                 @Html.DisplayFor(modelItem => item.NhsPhone)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.NhsSalary)
+                @Html.DisplayFor(modelItem => item.NhsSalary)   
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.NhsStatus)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Edit", "NhsEdit", new { id = item.NhsId }) |
+                    @Html.ActionLink("Details", "NhsDetails", new { id = item.NhsId }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>
         </tr>

@@ -1,0 +1,59 @@
+﻿@model NhsLesson07.Models.NhsEmployee
+
+@{
+    ViewData["Title"] = "Sửa thông tin";
+}
+
+<h1>Thông tin nhân viên</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NhsEdit" asp-route-id="@Model.NhsId">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NhsId" class="control-label"></label>
+                <input asp-for="NhsId" class="form-control" />
+                <span asp-validation-for="NhsId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NhsName" class="control-label"></label>
+                <input asp-for="NhsName" class="form-control" />
+                <span asp-validation-for="NhsName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NhsBirthDay" class="control-label"></label>
+                <input asp-for="NhsBirthDay" class="form-control" />
+                <span asp-validation-for="NhsBirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NhsEmail" class="control-label"></label>
+                <input asp-for="NhsEmail" class="form-control" />
+                <span asp-validation-for="NhsEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NhsPhone" class="control-label"></label>
+                <input asp-for="NhsPhone" class="form-control" />
+                <span asp-validation-for="NhsPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NhsSalary" class="control-label"></label>
+                <input asp-for="NhsSalary" class="form-control" />
+                <span asp-validation-for="NhsSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NhsStatus" /> @Html.DisplayNameFor(model => model.NhsStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NhsIndex">Back to List</a>
+</div>
+
