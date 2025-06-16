@@ -25,6 +25,8 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\TinHoc\k23cnt2_NguyenHaiSon_NetCore\NhsLesson08Annotation
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
 [D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson08Annotation/Views/NhsAccount/NhsCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzQWNjb3VudFxOaHNDcmVhdGUuY3NodG1s

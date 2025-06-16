@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NhsLesson09EF
+build_property.RootNamespace = NhsLesson09EF
+build_property.ProjectDir = D:\TinHoc\k23cnt2_NguyenHaiSon_NetCore\NhsLesson09EF\NhsLesson09EF\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\TinHoc\k23cnt2_NguyenHaiSon_NetCore\NhsLesson09EF\NhsLesson09EF
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsCategories/NhsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzQ2F0ZWdvcmllc1xOaHNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsHome/NhsAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzSG9tZVxOaHNBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsHome/NhsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzSG9tZVxOaHNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsPublishers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzUHVibGlzaGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsPublishers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzUHVibGlzaGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsPublishers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzUHVibGlzaGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsPublishers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzUHVibGlzaGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/NhsPublishers/NhsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhzUHVibGlzaGVyc1xOaHNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/Shared/NhsError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5oc0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/Shared/_NhsNavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OaHNOYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TinHoc/k23cnt2_NguyenHaiSon_NetCore/NhsLesson09EF/NhsLesson09EF/Views/Shared/_NhsLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OaHNMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7wvx3aqua8
