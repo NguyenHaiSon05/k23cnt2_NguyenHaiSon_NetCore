@@ -1,0 +1,55 @@
+﻿@model IEnumerable<NhsLesson10DB.Models.Category>
+
+@{
+    ViewData["Title"] = "Danh mục loại";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="NhsCreate" class="btn btn-primary">Thêm mới</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CateId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CateName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CateStatus)
+            </th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CateId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CateName)
+            </td>
+            <td>
+            @if (item.CateStatus == true)
+                {
+                    <text>Hiển thị</text>
+                }
+                else
+                {
+                    <text>Tạm khóa</text>
+                }
+
+            </td>
+            <td>
+                    <a asp-action="NhsEdit" asp-route-nhsid="@item.CateId">Edit</a> |
+                    <a asp-action="NhsDetails" asp-route-nhsid="@item.CateId">Details</a> |
+                    <a asp-action="NhsDelete" asp-route-nhsid="@item.CateId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

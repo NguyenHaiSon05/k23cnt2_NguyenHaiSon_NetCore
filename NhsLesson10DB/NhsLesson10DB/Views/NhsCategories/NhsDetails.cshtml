@@ -1,0 +1,42 @@
+﻿@model NhsLesson10DB.Models.Category
+
+@{
+    ViewData["Title"] = "Xem thông tin danh mục loại";
+}
+
+
+<div class="row">
+    <div class="col-md-6">
+        
+            <div class="card">
+                <div class="card-header">
+                    <h1>@ViewData["Title"]</h1>
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label asp-for="CateId" class="control-label"></label>
+                        <input asp-for="CateId" class="form-control" readonly />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CateName" class="control-label"></label>
+                    <input asp-for="CateName" class="form-control" readonly />
+                        <span asp-validation-for="CateName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CateStatus" class="control-label"></label>
+                    <input asp-for="CateStatus" class="form-control" readonly />
+                        <span asp-validation-for="CateStatus" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="form-group">
+                        <a asp-action="NhsEdit" asp-router-nhsId="@Model?.CateId" class="btn btn-primary">Edit</a>
+                        <a asp-action="NhsIndex" class="btn btn-secondary">Back to List</a>
+                    </div>
+                </div>
+            </div>
+
+        
+    </div>
+</div>
