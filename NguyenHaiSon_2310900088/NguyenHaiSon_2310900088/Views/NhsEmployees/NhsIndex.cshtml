@@ -1,0 +1,67 @@
+﻿@model IEnumerable<NguyenHaiSon_2310900088.Models.NhsEmployee>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="NhsCreate" class="btn btn-primary">Thêm mới</a>
+</p>
+<table class="table table-bodered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NhsEmpId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhsEmpName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhsEmpLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhsEmpStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhsEmpStatus)
+            </th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhsEmpId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhsEmpName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhsEmpLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhsEmpStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhsEmpStatus)
+                @if (item.NhsEmpStatus == true)
+                {
+                        <text>Hiển thị</text>
+                }
+                else
+                {
+                    <text>Tạm khóa</text>
+                }
+            </td>
+            <td>
+                    <a asp-action="NhsEdit" asp-route-Nhsid="@item.NhsEmpId">Edit</a> |
+                    <a asp-action="NhsDetails" asp-route-Nhsid="@item.NhsEmpId">Details</a> |
+                    <a asp-action="NhsDelete" asp-route-Nhsid="@item.NhsEmpId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
